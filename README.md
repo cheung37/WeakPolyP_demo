@@ -20,34 +20,34 @@
 ### Referenced model code: pvtv2.py and res2net.py
 ### Toolbox code: utils.py
 ## file tree
-  MyWeakPolyP
-  ├── dataset
-  │   └── SUN-SEG
-  │       ├── TestEasyDataset
-  │       │   ├── Frame
-  │       │   └── GT  
-  |       |
-  │       ├── TestHardDataset
-  │       │   ├── Frame
-  │       │   └── GT
-  │       │         
-  │       └── TrainDataset
-  │           ├── Frame
-  │           └── GT
-  |
-  ├── pretrain
-  │   ├── pvt_v2_b2.pth
-  │   └── res2net50_v1b_26w_4s-3cf99910.pth
-  |
-  ├── readme.md
-  |
-  └── source
-      ├── model.py
-      ├── pvtv2.py
-      ├── res2net.py
-      ├── test.py
-      ├── train.py
-      └── utils.py
+    MyWeakPolyP
+    ├── dataset
+    │   └── SUN-SEG
+    │       ├── TestEasyDataset
+    │       │   ├── Frame
+    │       │   └── GT  
+    |       |
+    │       ├── TestHardDataset
+    │       │   ├── Frame
+    │       │   └── GT
+    │       │         
+    │       └── TrainDataset
+    │           ├── Frame
+    │           └── GT
+    |
+    ├── pretrain
+    │   ├── pvt_v2_b2.pth
+    │   └── res2net50_v1b_26w_4s-3cf99910.pth
+    |
+    ├── readme.md
+    |
+    └── source
+        ├── model.py
+        ├── pvtv2.py
+        ├── res2net.py
+        ├── test.py
+        ├── train.py
+        └── utils.py
 
 # 中文
 ### 本存储库专门用于编写WeakPolyp论文的演示测试代码。
