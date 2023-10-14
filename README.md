@@ -14,11 +14,40 @@
 ### https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing
 ## About folder source
 ### This is the main code file:
-### Testing code: M2B_SC_demo_2_test
-### Training code: M2B_SC_demo_2_train
-### Paper model code: model
-### Referenced model code: pvtv2 and res2net
-### Toolbox code: utils
+### Testing code: M2B_SC_demo_2_test.py
+### Training code: M2B_SC_demo_2_train.py
+### Paper model code: model.py
+### Referenced model code: pvtv2.py and res2net.py
+### Toolbox code: utils.py
+## file tree
+  MyWeakPolyP
+  ├── dataset
+  │   └── SUN-SEG
+  │       ├── TestEasyDataset
+  │       │   ├── Frame
+  │       │   └── GT  
+  |       |
+  │       ├── TestHardDataset
+  │       │   ├── Frame
+  │       │   └── GT
+  │       │         
+  │       └── TrainDataset
+  │           ├── Frame
+  │           └── GT
+  |
+  ├── pretrain
+  │   ├── pvt_v2_b2.pth
+  │   └── res2net50_v1b_26w_4s-3cf99910.pth
+  |
+  ├── readme.md
+  |
+  └── source
+      ├── model.py
+      ├── pvtv2.py
+      ├── res2net.py
+      ├── test.py
+      ├── train.py
+      └── utils.py
 
 # 中文
 ### 本存储库专门用于编写WeakPolyp论文的演示测试代码。
@@ -36,8 +65,37 @@
 ### https://drive.google.com/file/d/1_1N-cx1UpRQo7Ybsjno1PAg4KE1T9e5J/view?usp=sharing
 ## 关于source文件夹
 ### 这是主要的代码文件：
-### 测试代码：M2B_SC_demo_2_test
-### 训练代码：M2B_SC_demo_2_train
-### 论文模型代码：model
-### 引用模型代码：pvtv2和res2net
-### 工具箱代码：utils
+### 测试代码：M2B_SC_demo_2_test.py
+### 训练代码：M2B_SC_demo_2_train.py
+### 论文模型代码：model.py
+### 引用模型代码：pvtv2.py和res2net.py
+### 工具箱代码：utils.py
+## 文件树
+  MyWeakPolyP
+  ├── dataset
+  │   └── SUN-SEG
+  │       ├── TestEasyDataset
+  │       │   ├── Frame
+  │       │   └── GT  
+  |       |
+  │       ├── TestHardDataset
+  │       │   ├── Frame
+  │       │   └── GT
+  │       │         
+  │       └── TrainDataset
+  │           ├── Frame
+  │           └── GT
+  |
+  ├── pretrain
+  │   ├── pvt_v2_b2.pth
+  │   └── res2net50_v1b_26w_4s-3cf99910.pth
+  |
+  ├── readme.md
+  |
+  └── source
+      ├── model.py
+      ├── pvtv2.py
+      ├── res2net.py
+      ├── test.py
+      ├── train.py
+      └── utils.py
