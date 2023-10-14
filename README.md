@@ -20,6 +20,7 @@
 ### Referenced model code: pvtv2 and res2net
 ### Toolbox code: utils
 
+# 中文
 ### 本存储库专门用于编写WeakPolyp论文的演示测试代码。
 ## 关于dataset文件夹
 ### 此目录用于存储数据集。SUN-SEG数据集是通过处理Kvasir-SEG息肉分割数据集中的1000张图像和掩码创建的。
