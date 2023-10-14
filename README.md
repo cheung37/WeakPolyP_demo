@@ -71,31 +71,31 @@
 ### 引用模型代码：pvtv2.py和res2net.py
 ### 工具箱代码：utils.py
 ## 文件树
-  MyWeakPolyP
-  ├── dataset
-  │   └── SUN-SEG
-  │       ├── TestEasyDataset
-  │       │   ├── Frame
-  │       │   └── GT  
-  |       |
-  │       ├── TestHardDataset
-  │       │   ├── Frame
-  │       │   └── GT
-  │       │         
-  │       └── TrainDataset
-  │           ├── Frame
-  │           └── GT
-  |
-  ├── pretrain
-  │   ├── pvt_v2_b2.pth
-  │   └── res2net50_v1b_26w_4s-3cf99910.pth
-  |
-  ├── readme.md
-  |
-  └── source
-      ├── model.py
-      ├── pvtv2.py
-      ├── res2net.py
-      ├── test.py
-      ├── train.py
-      └── utils.py
+      MyWeakPolyP
+      ├── dataset
+      │   └── SUN-SEG
+      │       ├── TestEasyDataset
+      │       │   ├── Frame
+      │       │   └── GT  
+      |       |
+      │       ├── TestHardDataset
+      │       │   ├── Frame
+      │       │   └── GT
+      │       │         
+      │       └── TrainDataset
+      │           ├── Frame
+      │           └── GT
+      |
+      ├── pretrain
+      │   ├── pvt_v2_b2.pth
+      │   └── res2net50_v1b_26w_4s-3cf99910.pth
+      |
+      ├── readme.md
+      |
+      └── source
+          ├── model.py
+          ├── pvtv2.py
+          ├── res2net.py
+          ├── test.py
+          ├── train.py
+          └── utils.py
