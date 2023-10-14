@@ -1,0 +1,2 @@
+This directory is used to store the dataset. The SUN-SEG dataset is created by processing 1000 images and masks from the Kvasir-SEG polyp segmentation dataset. We selected 500 of them for the training set, 250 for the easy test set, and 250 for the challenging test set.
+Please note that during training, a new folder named 'SUN-SEG-Processed' is generated. This folder contains the further processed dataset, and we will not upload it here.
